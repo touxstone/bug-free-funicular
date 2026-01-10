@@ -9,6 +9,9 @@ import Counter from './components/Counter';
 import Toggle from './components/Toggle';
 import NameInput from './components/NameInput';
 import TodoList from './components/TodoList';
+import RenderCounter from './components/RenderCounter';  
+import TimerComponent from './components/TimerComponent';
+import PersistentTimer from './components/PersistentTimer';
 
 export default function Home() {
   return (
@@ -19,7 +22,38 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-gray-800 mb-8">
           Mis 5 Componentes React 🎨
         </h2>
-        <div className="mb-12">
+{/* ========== DÍA 3: useEffect ========== */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+            Day 3: useEffect Hook 🎣
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <RenderCounter />
+          </div>
+        </section>
+{/* ========== DÍA 3A: useEffect (Timer) ========== */}        
+     <section className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+            Day 3(extra): Timer Component ⏱️
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <TimerComponent />
+          </div>
+        </section>   
+{/* ========== DÍA 3B: useEffect (Persistent Timer) ========== */}        
+<section className="max-w-2xl mx-auto bg-blue-900 text-white p-6 rounded-xl">
+        <h3 className="font-bold mb-2">¿Qué observar aquí?</h3>
+        <ul className="list-disc list-inside text-sm space-y-1 opacity-90">
+          <li>El <b>Render Counter</b> muestra cuántas veces Next.js refresca la UI.</li>
+          <li>El <b>Persistent Timer</b> sobrevive si refrescas la página (F5).</li>
+          <li>Ambos usan <code>useEffect</code> pero para propósitos totalmente distintos.</li>
+        </ul>
+      </section>
+      <br />  
+
+<div className="mb-12">
   <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
     Profile Cards con Props 🎯
   </h2>
@@ -94,6 +128,7 @@ export default function Home() {
   </h2>
   <TodoList />
 </div>
+
 </main>
 
     </div>

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 type Todo = {
   id: number;
@@ -8,24 +8,51 @@ type Todo = {
   completed: boolean;
 }
 
-// Tipo para los filtros
 type FilterType = 'all' | 'active' | 'completed';
 
 export default function TodoList() {
-  // Estado: array de todos
+  // Estados
   const [todos, setTodos] = useState<Todo[]>([]);
-  
-  // Estado: input text
   const [inputText, setInputText] = useState('');
-  
-  // Estado: filtro actual
   const [filter, setFilter] = useState<FilterType>('all');
-  
-  // Estado: id del todo en edición (null si ninguno)
   const [editingId, setEditingId] = useState<number | null>(null);
-  
-  // Estado: texto temporal mientras edita
   const [editText, setEditText] = useState('');
+  const [isMounted, setIsMounted] = useState(false);
+  
+  // 🆕 KEY para localStorage
+  const STORAGE_KEY = 'todos-app-data';
+  
+  // 🆕 useEffect: Detectar cuando estamos en el cliente
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+  
+  // 🆕 useEffect: CARGAR datos de localStorage al montar
+  useEffect(() => {
+    try {
+      const savedTodos = localStorage.getItem(STORAGE_KEY);
+      
+      if (savedTodos) {
+        // Parsear el JSON guardado
+        const parsedTodos = JSON.parse(savedTodos);
+        setTodos(parsedTodos);
+        console.log('✅ Loaded todos from localStorage:', parsedTodos.length);
+      }
+    } catch (error) {
+      console.error('❌ Error loading todos from localStorage:', error);
+    }
+  }, []); // Solo corre UNA VEZ al montar
+  
+  // 🆕 useEffect: GUARDAR datos en localStorage cuando cambien
+  useEffect(() => {
+    try {
+      // Convertir a JSON y guardar
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
+      console.log('💾 Saved todos to localStorage:', todos.length);
+    } catch (error) {
+      console.error('❌ Error saving todos to localStorage:', error);
+    }
+  }, [todos]); // Corre cada vez que 'todos' cambia
   
   // Función: agregar todo
   const addTodo = () => {
@@ -55,21 +82,60 @@ export default function TodoList() {
     setTodos(todos.filter(todo => todo.id !== id));
   };
   
-  // 🆕 FEATURE 1: Clear Completed
+  // Función: clear completed
   const clearCompleted = () => {
     setTodos(todos.filter(todo => !todo.completed));
   };
   
-  // 🆕 FEATURE 3: Start editing
+  // 🆕 Función: BORRAR TODOS LOS DATOS
+  const clearAllData = () => {
+    if (confirm('Are you sure you want to delete ALL todos? This cannot be undone.')) {
+      setTodos([]);
+      localStorage.removeItem(STORAGE_KEY);
+      console.log('🗑️ All data cleared');
+    }
+  };
+  
+  // 🆕 Función: EXPORTAR datos (descarga JSON)
+  const exportData = () => {
+    const dataStr = JSON.stringify(todos, null, 2);
+    const dataBlob = new Blob([dataStr], { type: 'application/json' });
+    const url = URL.createObjectURL(dataBlob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `todos-backup-${new Date().toISOString().split('T')[0]}.json`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+  
+  // 🆕 Función: IMPORTAR datos (carga JSON)
+  const importData = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const importedTodos = JSON.parse(e.target?.result as string);
+        setTodos(importedTodos);
+        console.log('📥 Imported todos:', importedTodos.length);
+      } catch (error) {
+        alert('Error importing file. Make sure it\'s a valid JSON file.');
+        console.error('❌ Import error:', error);
+      }
+    };
+    reader.readAsText(file);
+  };
+  
+  // Función: start editing
   const startEdit = (todo: Todo) => {
     setEditingId(todo.id);
     setEditText(todo.text);
   };
   
-  // 🆕 FEATURE 3: Save edit
+  // Función: save edit
   const saveEdit = (id: number) => {
     if (editText.trim() === '') {
-      // Si está vacío, cancelar
       setEditingId(null);
       return;
     }
@@ -84,13 +150,13 @@ export default function TodoList() {
     setEditText('');
   };
   
-  // 🆕 FEATURE 3: Cancel edit
+  // Función: cancel edit
   const cancelEdit = () => {
     setEditingId(null);
     setEditText('');
   };
   
-  // 🆕 FEATURE 2: Filtrar todos según el filtro activo
+  // Función: filtrar todos
   const getFilteredTodos = () => {
     switch (filter) {
       case 'active':
@@ -108,7 +174,14 @@ export default function TodoList() {
   
   return (
     <div className="bg-white rounded-lg shadow-md p-6 max-w-2xl mx-auto">
-      <h3 className="text-2xl font-bold mb-4 text-center">Enhanced Todo List 📝</h3>
+      {/* Header con info de persistencia */}
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-2xl font-bold">Todo List with localStorage 💾</h3>
+        <div className="flex items-center gap-2 text-xs text-gray-500">
+          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+          Auto-saved
+        </div>
+      </div>
       
       {/* Input + Button */}
       <div className="flex gap-2 mb-6">
@@ -128,7 +201,7 @@ export default function TodoList() {
         </button>
       </div>
       
-      {/* 🆕 FEATURE 2: Filter Buttons */}
+      {/* Filter Buttons */}
       <div className="flex gap-2 mb-4 justify-center flex-wrap">
         <button
           onClick={() => setFilter('all')}
@@ -186,9 +259,8 @@ export default function TodoList() {
                 className="w-5 h-5 text-blue-500 cursor-pointer flex-shrink-0"
               />
               
-              {/* 🆕 FEATURE 3: Texto editable o normal */}
+              {/* Texto editable o normal */}
               {editingId === todo.id ? (
-                // Modo edición
                 <>
                   <input
                     type="text"
@@ -216,7 +288,6 @@ export default function TodoList() {
                   </button>
                 </>
               ) : (
-                // Modo normal
                 <>
                   <span 
                     onDoubleClick={() => startEdit(todo)}
@@ -248,36 +319,70 @@ export default function TodoList() {
         )}
       </div>
       
-      {/* Stats y Clear Completed */}
+      {/* Stats y acciones */}
       {todos.length > 0 && (
-        <div className="pt-4 border-t border-gray-200 flex justify-between items-center">
-          <div className="text-sm text-gray-600">
-            <p>
-              {activeCount} pending / {todos.length} total
-            </p>
+        <div className="pt-4 border-t border-gray-200 space-y-3">
+          <div className="flex justify-between items-center">
+            <div className="text-sm text-gray-600">
+              <p>{activeCount} pending / {todos.length} total</p>
+            </div>
+            
+            {completedCount > 0 && (
+              <button
+                onClick={clearCompleted}
+                className="px-4 py-2 bg-orange-500 text-white text-sm rounded hover:bg-orange-600 font-medium"
+              >
+                Clear Completed ({completedCount})
+              </button>
+            )}
           </div>
           
-          {/* 🆕 FEATURE 1: Clear Completed Button */}
-          {completedCount > 0 && (
+          {/* 🆕 Data Management Buttons */}
+          <div className="flex gap-2 flex-wrap">
             <button
-              onClick={clearCompleted}
-              className="px-4 py-2 bg-red-500 text-white text-sm rounded hover:bg-red-600 font-medium"
+              onClick={exportData}
+              className="px-4 py-2 bg-green-500 text-white text-sm rounded hover:bg-green-600 font-medium"
             >
-              Clear Completed ({completedCount})
+              📥 Export Data
             </button>
-          )}
+            
+            <label className="px-4 py-2 bg-blue-500 text-white text-sm rounded hover:bg-blue-600 font-medium cursor-pointer">
+              📤 Import Data
+              <input
+                type="file"
+                accept=".json"
+                onChange={importData}
+                className="hidden"
+              />
+            </label>
+            
+            <button
+              onClick={clearAllData}
+              className="px-4 py-2 bg-red-600 text-white text-sm rounded hover:bg-red-700 font-medium"
+            >
+              🗑️ Clear All Data
+            </button>
+          </div>
         </div>
       )}
       
       {/* Info de uso */}
-      <div className="mt-4 p-3 bg-blue-50 rounded-lg text-sm text-gray-600">
-        <p className="font-semibold mb-1">💡 Features:</p>
+      <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm text-gray-700">
+        <p className="font-semibold mb-2">💡 localStorage Features:</p>
         <ul className="space-y-1 text-xs">
-          <li>• <strong>Double-click</strong> any task to edit it</li>
-          <li>• Click <strong>Edit</strong> button to edit</li>
-          <li>• Use <strong>filter buttons</strong> to view different lists</li>
-          <li>• <strong>Clear Completed</strong> removes all done tasks</li>
+          <li>✅ Data persists after closing browser</li>
+          <li>✅ Auto-saves on every change</li>
+          <li>✅ Export/Import for backup</li>
+          <li>✅ Works offline</li>
+          <li>⚠️ Data stored locally (not in cloud)</li>
         </ul>
+        
+        <div className="mt-3 pt-3 border-t border-blue-200">
+          <p className="font-semibold mb-1">🔍 Open DevTools to inspect:</p>
+          <p className="text-xs font-mono bg-white px-2 py-1 rounded">
+            Application → Local Storage → {isMounted ? window.location.origin : '...'}
+          </p>
+        </div>
       </div>
     </div>
   );
