@@ -12,6 +12,9 @@ import TodoList from './components/TodoList';
 import RenderCounter from './components/RenderCounter';  
 import TimerComponent from './components/TimerComponent';
 import PersistentTimer from './components/PersistentTimer';
+import Timer from './components/Timer';
+import UserList from './components/UserList';
+import WeatherApp from './components/WeatherApp';
 
 export default function Home() {
   return (
@@ -53,11 +56,34 @@ export default function Home() {
       </section>
       <br />  
 
+{/* ========== DÍA 3C: (another) useEffect ========== */}
+<section className="mb-16">
+  <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+    Day 3: (otro) useEffect Hook 🎣
+  </h2>
+  
+  <div className="grid md:grid-cols-2 gap-6">
+    {/* <RenderCounter /> */}
+    <Timer />  {/* ← AÑADIR */}
+  </div>
+</section>  
+<br />
+
+{/* ========== WEATHER APP ========== */}
+<section className="mb-16">
+  <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+    Weather App Project 🌤️
+  </h2>
+  </section>
+  <WeatherApp />  
+  <br /> 
+
 <div className="mb-12">
   <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
     Profile Cards con Props 🎯
   </h2>
-  
+
+
   <div className="grid md:grid-cols-3 gap-6">
     <ProfileCard 
       name="Alice Johnson"
@@ -128,6 +154,17 @@ export default function Home() {
   </h2>
   <TodoList />
 </div>
+{/* ========== FETCH DE APIs ========== */}
+<section className="mb-16">
+  <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+    Fetching Real Data from APIs 🌐
+  </h2>
+  
+  <UserList />
+</section>
+```
+
+---
 
 </main>
 
