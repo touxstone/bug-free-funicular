@@ -15,6 +15,9 @@ import PersistentTimer from './components/PersistentTimer';
 import Timer from './components/Timer';
 import UserList from './components/UserList';
 import WeatherApp from './components/WeatherApp';
+import SimpleForm from './components/SimpleForm';
+import RegistrationForm from './components/RegistrationForm';
+import LoginForm from './components/LoginForm';
 
 export default function Home() {
   return (
@@ -162,9 +165,20 @@ export default function Home() {
   
   <UserList />
 </section>
-```
 
----
+
+
+{/* ========== DÍA 4: FORMS ========== */}
+<section className="mb-16">
+  <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+    Day 4: Forms & Validation 📝
+  </h2>
+  
+  <SimpleForm />
+  <RegistrationForm />
+  <LoginForm />
+</section>
+
 
 </main>
 
