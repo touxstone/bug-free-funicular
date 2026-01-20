@@ -18,6 +18,13 @@ import WeatherApp from './components/WeatherApp';
 import SimpleForm from './components/SimpleForm';
 import RegistrationForm from './components/RegistrationForm';
 import LoginForm from './components/LoginForm';
+import ContactForm from './components/ContactForm';
+import ContactWithUpload from './components/ContactWithUpload';
+import ContactoForm from './components/ContactoForm';
+import LocalStorageDemo from './components/LocalStorageDemo';
+import FetchDemo from './components/FetchDemo';
+import ToggleDemo from './components/ToggleDemo';
+import DebounceDemo from './components/DebounceDemo';
 
 export default function Home() {
   return (
@@ -173,13 +180,27 @@ export default function Home() {
   <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
     Day 4: Forms & Validation 📝
   </h2>
-  
-  <SimpleForm />
-  <RegistrationForm />
-  <LoginForm />
+  <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
+    <SimpleForm />
+    <RegistrationForm />
+    <LoginForm />
+    <ContactWithUpload />    
+    <ContactoForm />  {/* ← AÑADIR */}
+  </div>
 </section>
 
-
+{/* ========== DÍA 5: (Custom Hook) useLocalStorage ========== */}
+<section className="mb-16">
+  <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+    Day 5-6: Custom Hooks 🎣
+  </h2>
+  
+  <LocalStorageDemo />
+  <FetchDemo />
+  <ToggleDemo />  {/* ← AÑADIR */}
+  <DebounceDemo />  {/* ← AÑADIR */}  
+  
+</section>
 </main>
 
     </div>
