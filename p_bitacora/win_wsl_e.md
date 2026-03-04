@@ -25,8 +25,7 @@ Antes de pasar a los pasos, mira este esquema. Ilustra la "complexión" o estruc
 
 **Sketch: Arquitectura de Desarrollo Híbrida Windows 11 + WSL2**
 
-<center><img align="center" src="/img/win_wsl_e.svg"/></center>
-
+![img](img/win_wsl_e.svg)
 
 ### Ventajas de esta Complexión (Ilustradas en el Sketch):
 
