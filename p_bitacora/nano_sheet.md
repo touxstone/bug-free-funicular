@@ -95,6 +95,7 @@ Si te encuentras frente a un servidor remoto o un sistema en emergencia y tu ún
 En nano, los atajos con **Meta** se muestran como `M-` y normalmente corresponden a **Alt**. [web:2]  
 Si Alt no funciona en tu terminal, puedes usar **Esc** y luego la tecla (por ejemplo, `Esc` seguido de `U` para deshacer). [web:2]
 
+```mermaid
 flowchart TD
 
     A[🖥️ Abrir nano<br/>`nano archivo.txt`] --> B[✏️ Editar texto]
@@ -126,6 +127,7 @@ flowchart TD
     style N fill:#c8e6c9
     style I fill:#fff3e0
     style K fill:#f3e5f5
+```
 
 ```text
 1. nano miarchivo.txt          # Abrir
