@@ -1,6 +1,7 @@
 # Chuleta rápida de atajos de GNU nano
 > ...Cuando estás sólo ante el peligro
-by RS Montalvo
+
+### by RS Montalvo
 
 Nano es el editor que nunca falta. No presume ni brilla, pero siempre está ahí, incluso cuando todo lo demás falla.  
 Si te encuentras frente a un servidor remoto o un sistema en emergencia y tu única arma es `nano`, esta chuleta te servirá de mapa para salir con elegancia del tiroteo.
@@ -95,6 +96,7 @@ En nano, los atajos con **Meta** se muestran como `M-` y normalmente corresponde
 Si Alt no funciona en tu terminal, puedes usar **Esc** y luego la tecla (por ejemplo, `Esc` seguido de `U` para deshacer). [web:2]
 
 flowchart TD
+
     A[🖥️ Abrir nano<br/>`nano archivo.txt`] --> B[✏️ Editar texto]
     
     B --> C{Buscar?}
@@ -125,6 +127,7 @@ flowchart TD
     style I fill:#fff3e0
     style K fill:#f3e5f5
 
+```text
 1. nano miarchivo.txt          # Abrir
 2. Ctrl+A/E/P/N/F/B            # Navegar
 3. Ctrl+W                      # Buscar "funciónX" 
@@ -133,4 +136,4 @@ flowchart TD
 6. Alt+U                       # Undo si metes la pata
 7. Ctrl+O                      # Guardar
 8. Ctrl+X                      # Salir limpio
-
+```
