@@ -19,21 +19,8 @@ Este post es el resultado de semanas de iteración hasta encontrar una configura
 ## Diagnóstico: ¿Qué está pasando?
 
 ### La arquitectura del problema
+
 ![img](img/bp07_emacsNW-setting.svg)
-
-```mermaid
----
-config:
-  theme: mc
-  layout: fixed
----
-flowchart LR;
-    WindowsApps["Windows Apps<br>Word, Chrome"] <-- "UTF-16LE" --> Clipboard["Clipboard<br>Windows"]
-    Clipboard -- "UTF-16LE" --> WSL2["WSL2 Translation Layer<br>UTF-16LE ↔ UTF-8<br>A veces falla silenciosamente"]
-    WSL2 -- "UTF-8" --> Terminal["Terminal Emulator<br>Windows Terminal, Hyper<br>Maneja UTF-8 nativamente"]
-    Terminal -- "UTF-8" --> Emacs["Emacs -nw<br>terminal mode<br>Espera UTF-8 puro"]
-```	
-
 
 ### Los tres fallos clásicos
 
