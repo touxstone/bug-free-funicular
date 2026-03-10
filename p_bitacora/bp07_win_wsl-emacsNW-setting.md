@@ -27,7 +27,7 @@ config:
   theme: mc
   layout: fixed
 ---
-flowchart TB;
+flowchart LR;
     WindowsApps["Windows Apps<br>Word, Chrome"] <-- "UTF-16LE" --> Clipboard["Clipboard<br>Windows"]
     Clipboard -- "UTF-16LE" --> WSL2["WSL2 Translation Layer<br>UTF-16LE ↔ UTF-8<br>A veces falla silenciosamente"]
     WSL2 -- "UTF-8" --> Terminal["Terminal Emulator<br>Windows Terminal, Hyper<br>Maneja UTF-8 nativamente"]
