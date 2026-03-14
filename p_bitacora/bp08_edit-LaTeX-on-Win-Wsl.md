@@ -34,7 +34,7 @@ graph LR
         Browser[Navegador / Upload Web]:::win
     end
 
-    subgraph WSL_Ubuntu [Dominio WSL2 - Alto Rendimiento]
+    subgraph WSL_Ubuntu [Dom WSL2 Alto Rendimiento]
         direction TB
         TL[TeX Live Full]:::wsl
         Files[Archivos .tex / .bib / .png]:::wsl
