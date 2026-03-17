@@ -15,14 +15,14 @@ Aunque stateful es mejor que estado oculto en el host.
 El contenedor debe ser predecible, reproducible y aburrido.  
 Aunque la producción a veces exige caos controlado.  
 
-docker compose up -d es mejor que un script bash de 400 líneas.  
+`docker compose up -d` es mejor que un script bash de 400 líneas.  
 Aunque un script bash de 400 líneas es mejor que un dashboard clickeado a mano.  
 
-Logs en stdout son mejores que archivos mágicos en /var/log.  
+Logs en stdout son mejores que archivos mágicos en `/var/log`.  
 Aunque volúmenes son mejores que perder datos cada martes.  
 
-Commit es tentación en emergencias.  
-Aunque commit es pecado capital en el camino del build limpio.  
+`commit` es tentación en emergencias.  
+Aunque `commit` es pecado capital en el camino del build limpio.  
 
 La imagen debe ser pequeña.  
 Aunque la imagen multi-stage con cache inteligente es mejor que pequeña y lenta de construir.  
@@ -31,9 +31,9 @@ Multi-arch es mejor que sorpresas en ARM.
 Aunque x86 es aún mejor que discutir con QEMU.  
 
 Limpieza es mejor que acumular basura eterna.  
-Aunque docker system prune -a --volumes es mejor que lágrimas por disco lleno.  
+Aunque `$docker system prune -a --volumes` es mejor que lágrimas por disco lleno.  
 
-docker scout es mejor que ignorar vulnerabilidades.  
+`$ docker scout` es mejor que ignorar vulnerabilidades.  
 Aunque ignorar vulnerabilidades es a veces mejor que bloquear el deploy por un CVE de 2009.  
 
 En el principio era el Dockerfile.  
