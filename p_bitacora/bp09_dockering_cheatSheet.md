@@ -2,7 +2,7 @@
 
 ## by RS Montalvo
 
-    >> **Fecha:** Marzo 2026, porque todo puede cambiar (repentinamente) ~~ \
+>> **Fecha:** Marzo 2026, porque todo puede cambiar (repentinamente) ~~ \
        **Para:** Los compis que cual gladiadores luchan lína a línea con contenedores todos los días (¡ya sabéis quiénes somos!)
 
 > **El Tao de Docker**  (versión express) \
