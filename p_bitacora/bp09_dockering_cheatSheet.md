@@ -2,8 +2,8 @@
 
 ## by RS Montalvo
 
-> **Fecha:** Marzo 2026, porque todo puede cambiar (repentinamente) ~~
->> **Para:** Los compis que cual gladiadores luchan lína a línea con contenedores todos los días (¡ya sabéis quiénes somos!)
+>> **Fecha:** Marzo 2026, porque todo puede cambiar (repentinamente) ~~
+   **Para:** Los compis que cual gladiadores luchan lína a línea con contenedores todos los días (¡ya sabéis quiénes somos!)
 
 > **El Tao de Docker**  (versión express) \
 Efímero es mejor que eterno.  \
@@ -20,7 +20,7 @@ Aunque multi-stage con cache es mejor que pequeña y eterna de build. \
 Logs en stdout son sagrados.  \
 Volúmenes son necesarios.  \
 Disco lleno es karma acumulado. \
-Ahora es mejor que nunca… \ 
+Ahora es mejor que nunca…  
 …aunque “nunca” suele ser mejor que --no-cache en lunes por la mañana. \
 Los contenedores son efímeros — ¡tratémoslos como tales!
 
