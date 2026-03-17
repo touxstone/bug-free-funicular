@@ -2,7 +2,9 @@
 # Games Sof-dev People Play
 
 ## by RS Montalvo
-> Hacia Octubre, 2025 como parte de una clase que implementaba una simulación de trabajo grupal, a fin, ya sabéis, de acercarnos a los real-world escenarios de desarrollo, hice, además de las anotaciones parte del `homework` (e.g. ya sabéis, uno haciendo la parte de los diagramas `ER` otro haciendo las tablas `MySQL` que se tercien, y etc., como suele decir `Zoe`, `juntos como hermanos miembros de una iglesia ~~` ) una serie de observaciones que provienen de mi veta-de-interés por la psicología, y por el interesante, así llamado, `Análisis Transaccional`. Al final, acabé montando (además) un mini-modulo de gestión de grupos `soft-dev`y una plantilla de `terapia-no-clínica` ligera para gestionar las operaciones. 
+
+> Hacia Octubre, 2025 como parte de una clase que implementaba una simulación de trabajo grupal, a fin, ya sabéis, de acercarnos a los `real-world` escenarios de desarrollo, hice, además de las anotaciones parte del `homework` (ya sabéis, uno haciendo la parte de los diagramas `ER`, otro haciendo las tablas `MySQL` que se tercien, y etc. ... como suele decir `Zoe`, `juntos como hermanos miembros de una iglesia ~~` ), una serie de observaciones que provienen de mi veta-de-interés por la psicología, y por el interesante, así llamado, `Análisis Transaccional`. 
+Al final, acabé montando, además, un `mini-módulo AT` de gestión de grupos `soft-dev`y una plantilla de `terapia-no-clínica` ligera para gestionar las operaciones. 
 
 > Here are some curated annotations inspired by the book Games People Play by E. Berne and the role-playing experience as a kind of software development group recently implemented in class.
 
