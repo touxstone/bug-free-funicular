@@ -16,42 +16,42 @@ El Análisis Transaccional (AT), desarrollado por Eric Berne en su libro *Los ju
 
 Para cada uno, incluyo un outline con: descripción, manifiestación en equipos de software y pago emocional.
 
-1. ¿Por qué no...?, Sí, pero...  
+**1. ¿Por qué no...?, Sí, pero...**  
    - Descripción: Una persona busca ayuda para un problema, recibe sugerencias, pero las rechaza sistemáticamente con "Sí, pero...", culminando en un giro donde el ayudante se siente incompetente y el buscador justificado. Involucra un engaño inicial (pedir ayuda), un gancho (ofrecer soluciones) y un cierre manipulador.  
    - Manifiestación en equipos de software: En stand-ups o retrospectives ágiles, un desarrollador pide ideas para optimizar un proceso (ej. refactorización de código), pero descarta cada propuesta con excusas técnicas, frustrando al equipo y estancando el progreso.  
    - Pago emocional: El jugador se siente superior y evita la responsabilidad real; el equipo se desmoraliza, reduciendo la innovación.
 
-2. ¡Mira qué duro he intentado!  
+**2. ¡Mira qué duro he intentado!**
    - Descripción: Se presiona a alguien para que pruebe una solución, se cumple a medias, falla intencionalmente y se resalta el esfuerzo fallido para culpar al proceso o al consejero.  
    - Manifiestación en equipos de software: Durante un sprint, un miembro del equipo sigue "consejos" defectuosos para implementar una feature (ej. una integración API), falla y exclama "¡Lo intenté todo!", culpando al framework o al líder ágil, en lugar de ajustar.  
    - Pago emocional: Justifica el fracaso personal y genera simpatía; el equipo se siente culpable por "presionar" demasiado.
 
-3. Solo intento ayudar  
+**3. Solo intento ayudar**  
    - Descripción: Se ofrece "ayuda" con instrucciones intencionalmente erróneas, lo que lleva a un error, una disculpa implícita y la defensa "¡Solo quería ayudar!", haciendo sentir al receptor inadecuado.  
    - Manifiestación en equipos de software: Un senior da "guía" en una code review con pasos ambiguos para una tarea (ej. deployment), el junior falla y se disculpa; el senior se victimiza, fomentando dependencia en lugar de autonomía.  
    - Pago emocional: El ayudante se siente moralmente superior; el receptor internaliza inseguridad, afectando la confianza en el equipo.
 
-4. ¡Mira lo que me hiciste hacer!  
+**4. ¡Mira lo que me hiciste hacer!**  
    - Descripción: Se pide consejo, se sigue a medias, se comete un error y se culpa al consejero, escalando a provocación y acusación.  
    - Manifiestación en equipos de software: En planificación de sprint, un dev sigue sugerencias del product owner para priorizar tasks, pero al fallar el deadline, acusa "¡Tus prioridades me obligaron a esto!", desviando la atención de su estimación errónea.  
    - Pago emocional: Transfiere la culpa y evita autocrítica; genera conflicto y erosiona la colaboración.
 
-5. ¡Ahora te pillé!  
+**5. ¡Ahora te pillé!**
    - Descripción: Se provoca un error en el otro, se defiende, se castiga y se acusa, culminando en una explosión de furia para sentirse superior.  
    - Manifiestación en equipos de software: En revisiones de código o demos, un tester "provoca" un bug menor en el trabajo de un dev para "atraparlo", lo acusa públicamente y descarga ira, común en entornos de alta presión como releases.
    - Pago emocional: El provocador gana superioridad moral; el equipo pierde confianza, fomentando paranoia.
 
-6. Pata de Palo.  
+**6. Pata de Palo.**  
    - Descripción: Se usa una excusa crónica (ej. "con mi problema...") para evadir expectativas, respondiendo a bajas demandas con resignación fingida.  
    - Manifiestación en equipos de software: Un dev justifica retrasos en commits con "Con mi carga de legacy code, ¿qué esperas?", evadiendo tareas en sprints y perpetuando bajo rendimiento.  
    - Pago emocional: Evita el esfuerzo real y gana indulgencia; el equipo baja expectativas, estancando el crecimiento grupal.
 
-7. Si no fuera por ti  
+**7. Si no fuera por ti**  
    - Descripción: Se crea dependencia emocional, como "Si no fuera por ti, mi trabajo sería aburrido", para retener al otro por miedo al abandono.  
    - Manifiestación en equipos de software: Un líder ágil disuade a un dev de unirse a otro equipo diciendo "¡Sin ti, este squad sería un desastre!", fomentando codependencia en lugar de movilidad interna.  
    - Pago emocional: Mantiene el control y evita la soledad; limita la rotación y el desarrollo individual.
 
-8. Esquina (o Doble vínculo)  
+**8. Esquina (o Doble vínculo)**  
    - Descripción: Se crea una trampa donde cualquier acción es "equivocada", dejando al otro paralizado sin salida buena.  
    - Manifiestación en equipos de software: En asignación de roles, el manager dice "Haz esta task crítica o la delegas, pero si la delegas, fallas como líder", atrapando al dev en indecisión durante un sprint.  
    - Pago emocional: El creador gana poder; el atrapado se siente impotente, reduciendo la iniciativa del equipo.
