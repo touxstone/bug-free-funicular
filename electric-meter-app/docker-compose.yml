@@ -1,0 +1,71 @@
+#version: '3.8'
+
+services:
+  # Opcional: Mantén PostgreSQL local para desarrollo rápido
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: electric_meter_db
+    restart: no
+    environment:
+      POSTGRES_DB: electric_meter_db
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+    profiles:
+      - local  # Solo se activa con perfil local
+    
+  backend:
+    build: ./backend
+    container_name: electric_meter_backend
+    restart: no
+    ports:
+      - "5000:5000"
+    environment:
+      # Neon toma prioridad si está definida
+      DATABASE_URL: ${DATABASE_URL}
+      # Para desarrollo local con Docker
+      USE_LOCAL_DB: ${USE_LOCAL_DB:-false}
+      DB_HOST: postgres-db
+      DB_USER: app_user
+      DB_PASSWORD: app_password
+      DB_NAME: electric_meter_db
+      DB_PORT: 5432
+      NODE_ENV: ${NODE_ENV:-development}
+    env_file:
+      - .env  # Carga NEON_DATABASE_URL si existe
+    depends_on:
+      - postgres-db
+    networks:
+      - app_network
+    profiles:
+      - local
+      - prod
+
+  frontend:
+    build: ./frontend
+    container_name: electric_meter_frontend
+    restart: no
+    ports:
+      - "3000:3000"
+    environment:
+      REACT_APP_API_URL: http://localhost:5000
+    depends_on:
+      - backend
+    networks:
+      - app_network
+    profiles:
+      - local
+      - prod
+
+volumes:
+  postgres_data:
+
+networks:
+  app_network:
+    driver: bridge

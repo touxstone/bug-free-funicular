@@ -1,0 +1,34 @@
+#version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: electric_meter_backend_prod
+    restart: no
+    ports:
+      - "5000:5000"
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      NODE_ENV: production
+    env_file:
+      - .env
+    networks:
+      - app_network
+    # No hay depends_on porque la DB está en Neon
+
+  frontend:
+    build: ./frontend
+    container_name: electric_meter_frontend_prod
+    restart: no
+    ports:
+      - "3000:3000"
+    environment:
+      REACT_APP_API_URL: ${API_URL}
+    depends_on:
+      - backend
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
