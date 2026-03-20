@@ -1,0 +1,20 @@
+ name: electric-meter-backend
+     runtime: node
+         rootDir: electric-meter-app/backend
+             buildCommand: npm install
+                 startCommand: npm start
+                     envVars:
+                             - key: DATABASE_URL
+                                       sync: false
+                                             - key: NODE_ENV
+                                                       value: production
+
+                                                         - type: web
+                                                               name: electric-meter-frontend
+                                                                   runtime: static
+                                                                       rootDir: electric-meter-app/frontend
+                                                                           buildCommand: npm install && npm run build
+                                                                               staticPublishPath: ./build
+                                                                                   envVars:
+                                                                                           - key: REACT_APP_API_URL
+                                                                                                     value: https://electric-meter-backend.onrender.com
