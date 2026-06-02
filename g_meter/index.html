@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diesel Meter Launcher</title>
+    <link rel="stylesheet" href="launcher.css">
+  </head>
+  <body>
+    <main class="launcher-shell">
+      <section class="hero" aria-labelledby="pageTitle">
+        <div class="hero-copy">
+          <p class="eyebrow">Shared diesel dispenser</p>
+          <h1 id="pageTitle">Meter readings</h1>
+          <p class="summary">
+            Open the secure Apps Script app to submit fuel readings, review
+            recent entries, and keep the sheet-backed log up to date.
+          </p>
+
+          <div class="actions">
+            <a class="primary-link" id="openApp" href="#">Open app</a>
+            <button class="secondary-button" id="copyLink" type="button">
+              Copy app link
+            </button>
+          </div>
+
+          <p class="status" id="launcherStatus" role="status"></p>
+        </div>
+
+        <div class="meter-panel" aria-hidden="true">
+          <svg viewBox="0 0 360 260" role="img">
+            <rect x="34" y="40" width="292" height="182" rx="14"></rect>
+            <path d="M74 168a108 108 0 0 1 212 0"></path>
+            <line x1="180" y1="168" x2="249" y2="102"></line>
+            <circle cx="180" cy="168" r="12"></circle>
+            <text x="180" y="210" text-anchor="middle">GAS + SHEETS</text>
+          </svg>
+        </div>
+      </section>
+
+      <section class="shortcuts" aria-labelledby="shortcutsTitle">
+        <div>
+          <h2 id="shortcutsTitle">Open for a user</h2>
+          <p>These shortcuts pass only the user number to the GAS app.</p>
+        </div>
+        <div class="user-grid" id="userGrid"></div>
+      </section>
+    </main>
+
+    <script src="launcher.js"></script>
+  </body>
+</html>
