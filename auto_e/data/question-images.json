@@ -1,0 +1,2324 @@
+{
+  "images": {
+    "1001-01": {
+      "src": "app/assets/questions/test01/1001-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 56,
+      "width": 194,
+      "height": 122
+    },
+    "1001-02": {
+      "src": "app/assets/questions/test01/1001-02.png",
+      "page": 1,
+      "top": 383,
+      "left": 56,
+      "width": 194,
+      "height": 145
+    },
+    "1001-03": {
+      "src": "app/assets/questions/test01/1001-03.png",
+      "page": 1,
+      "top": 626,
+      "left": 56,
+      "width": 194,
+      "height": 145
+    },
+    "1001-04": {
+      "src": "app/assets/questions/test01/1001-04.png",
+      "page": 1,
+      "top": 867,
+      "left": 56,
+      "width": 194,
+      "height": 145
+    },
+    "1001-05": {
+      "src": "app/assets/questions/test01/1001-05.png",
+      "page": 2,
+      "top": 86,
+      "left": 56,
+      "width": 194,
+      "height": 146
+    },
+    "1001-06": {
+      "src": "app/assets/questions/test01/1001-06.png",
+      "page": 2,
+      "top": 293,
+      "left": 56,
+      "width": 212,
+      "height": 146
+    },
+    "1001-07": {
+      "src": "app/assets/questions/test01/1001-07.png",
+      "page": 2,
+      "top": 515,
+      "left": 56,
+      "width": 162,
+      "height": 131
+    },
+    "1001-08": {
+      "src": "app/assets/questions/test01/1001-08.png",
+      "page": 2,
+      "top": 757,
+      "left": 56,
+      "width": 212,
+      "height": 145
+    },
+    "1001-09": {
+      "src": "app/assets/questions/test01/1001-09.png",
+      "page": 2,
+      "top": 1000,
+      "left": 56,
+      "width": 196,
+      "height": 133
+    },
+    "1001-10": {
+      "src": "app/assets/questions/test01/1001-10.png",
+      "page": 3,
+      "top": 115,
+      "left": 56,
+      "width": 194,
+      "height": 145
+    },
+    "1001-11": {
+      "src": "app/assets/questions/test01/1001-11.png",
+      "page": 3,
+      "top": 353,
+      "left": 48,
+      "width": 210,
+      "height": 145
+    },
+    "1001-12": {
+      "src": "app/assets/questions/test01/1001-12.png",
+      "page": 3,
+      "top": 557,
+      "left": 48,
+      "width": 212,
+      "height": 134
+    },
+    "1001-13": {
+      "src": "app/assets/questions/test01/1001-13.png",
+      "page": 3,
+      "top": 779,
+      "left": 48,
+      "width": 194,
+      "height": 122
+    },
+    "1001-14": {
+      "src": "app/assets/questions/test01/1001-14.png",
+      "page": 3,
+      "top": 1020,
+      "left": 48,
+      "width": 195,
+      "height": 146
+    },
+    "1001-15": {
+      "src": "app/assets/questions/test01/1001-15.png",
+      "page": 4,
+      "top": 117,
+      "left": 48,
+      "width": 195,
+      "height": 146
+    },
+    "1001-16": {
+      "src": "app/assets/questions/test01/1001-16.png",
+      "page": 4,
+      "top": 341,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1001-17": {
+      "src": "app/assets/questions/test01/1001-17.png",
+      "page": 4,
+      "top": 579,
+      "left": 48,
+      "width": 212,
+      "height": 145
+    },
+    "1001-18": {
+      "src": "app/assets/questions/test01/1001-18.png",
+      "page": 4,
+      "top": 820,
+      "left": 48,
+      "width": 195,
+      "height": 146
+    },
+    "1001-19": {
+      "src": "app/assets/questions/test01/1001-19.png",
+      "page": 4,
+      "top": 1043,
+      "left": 48,
+      "width": 196,
+      "height": 133
+    },
+    "1001-20": {
+      "src": "app/assets/questions/test01/1001-20.png",
+      "page": 5,
+      "top": 152,
+      "left": 48,
+      "width": 194,
+      "height": 133
+    },
+    "1001-21": {
+      "src": "app/assets/questions/test01/1001-21.png",
+      "page": 5,
+      "top": 372,
+      "left": 48,
+      "width": 195,
+      "height": 146
+    },
+    "1001-22": {
+      "src": "app/assets/questions/test01/1001-22.png",
+      "page": 5,
+      "top": 596,
+      "left": 48,
+      "width": 212,
+      "height": 147
+    },
+    "1001-23": {
+      "src": "app/assets/questions/test01/1001-23.png",
+      "page": 5,
+      "top": 838,
+      "left": 48,
+      "width": 212,
+      "height": 144
+    },
+    "1001-24": {
+      "src": "app/assets/questions/test01/1001-24.png",
+      "page": 5,
+      "top": 1062,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1001-25": {
+      "src": "app/assets/questions/test01/1001-25.png",
+      "page": 6,
+      "top": 188,
+      "left": 48,
+      "width": 196,
+      "height": 123
+    },
+    "1001-26": {
+      "src": "app/assets/questions/test01/1001-26.png",
+      "page": 6,
+      "top": 407,
+      "left": 48,
+      "width": 182,
+      "height": 156
+    },
+    "1001-27": {
+      "src": "app/assets/questions/test01/1001-27.png",
+      "page": 6,
+      "top": 608,
+      "left": 48,
+      "width": 195,
+      "height": 146
+    },
+    "1001-28": {
+      "src": "app/assets/questions/test01/1001-28.png",
+      "page": 6,
+      "top": 850,
+      "left": 48,
+      "width": 196,
+      "height": 120
+    },
+    "1001-30": {
+      "src": "app/assets/questions/test01/1001-30.png",
+      "page": 7,
+      "top": 237,
+      "left": 48,
+      "width": 195,
+      "height": 146
+    },
+    "1002-01": {
+      "src": "app/assets/questions/test02/1002-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 59,
+      "width": 196,
+      "height": 132
+    },
+    "1002-02": {
+      "src": "app/assets/questions/test02/1002-02.png",
+      "page": 1,
+      "top": 364,
+      "left": 59,
+      "width": 194,
+      "height": 146
+    },
+    "1002-03": {
+      "src": "app/assets/questions/test02/1002-03.png",
+      "page": 1,
+      "top": 571,
+      "left": 59,
+      "width": 194,
+      "height": 145
+    },
+    "1002-04": {
+      "src": "app/assets/questions/test02/1002-04.png",
+      "page": 1,
+      "top": 793,
+      "left": 59,
+      "width": 196,
+      "height": 122
+    },
+    "1002-05": {
+      "src": "app/assets/questions/test02/1002-05.png",
+      "page": 1,
+      "top": 1017,
+      "left": 59,
+      "width": 196,
+      "height": 130
+    },
+    "1002-06": {
+      "src": "app/assets/questions/test02/1002-06.png",
+      "page": 2,
+      "top": 134,
+      "left": 59,
+      "width": 194,
+      "height": 145
+    },
+    "1002-07": {
+      "src": "app/assets/questions/test02/1002-07.png",
+      "page": 2,
+      "top": 355,
+      "left": 59,
+      "width": 194,
+      "height": 145
+    },
+    "1002-08": {
+      "src": "app/assets/questions/test02/1002-08.png",
+      "page": 2,
+      "top": 579,
+      "left": 59,
+      "width": 196,
+      "height": 132
+    },
+    "1002-09": {
+      "src": "app/assets/questions/test02/1002-09.png",
+      "page": 2,
+      "top": 803,
+      "left": 59,
+      "width": 196,
+      "height": 132
+    },
+    "1002-10": {
+      "src": "app/assets/questions/test02/1002-10.png",
+      "page": 2,
+      "top": 1027,
+      "left": 59,
+      "width": 194,
+      "height": 145
+    },
+    "1002-11": {
+      "src": "app/assets/questions/test02/1002-11.png",
+      "page": 3,
+      "top": 133,
+      "left": 51,
+      "width": 195,
+      "height": 146
+    },
+    "1002-12": {
+      "src": "app/assets/questions/test02/1002-12.png",
+      "page": 3,
+      "top": 355,
+      "left": 51,
+      "width": 196,
+      "height": 135
+    },
+    "1002-13": {
+      "src": "app/assets/questions/test02/1002-13.png",
+      "page": 3,
+      "top": 579,
+      "left": 51,
+      "width": 194,
+      "height": 134
+    },
+    "1002-14": {
+      "src": "app/assets/questions/test02/1002-14.png",
+      "page": 3,
+      "top": 803,
+      "left": 51,
+      "width": 196,
+      "height": 132
+    },
+    "1002-15": {
+      "src": "app/assets/questions/test02/1002-15.png",
+      "page": 4,
+      "top": 88,
+      "left": 51,
+      "width": 195,
+      "height": 147
+    },
+    "1002-16": {
+      "src": "app/assets/questions/test02/1002-16.png",
+      "page": 4,
+      "top": 331,
+      "left": 51,
+      "width": 194,
+      "height": 133
+    },
+    "1002-17": {
+      "src": "app/assets/questions/test02/1002-17.png",
+      "page": 4,
+      "top": 550,
+      "left": 51,
+      "width": 212,
+      "height": 147
+    },
+    "1002-18": {
+      "src": "app/assets/questions/test02/1002-18.png",
+      "page": 4,
+      "top": 793,
+      "left": 51,
+      "width": 194,
+      "height": 132
+    },
+    "1002-19": {
+      "src": "app/assets/questions/test02/1002-19.png",
+      "page": 4,
+      "top": 998,
+      "left": 51,
+      "width": 196,
+      "height": 133
+    },
+    "1002-20": {
+      "src": "app/assets/questions/test02/1002-20.png",
+      "page": 5,
+      "top": 133,
+      "left": 51,
+      "width": 195,
+      "height": 146
+    },
+    "1002-21": {
+      "src": "app/assets/questions/test02/1002-21.png",
+      "page": 5,
+      "top": 355,
+      "left": 51,
+      "width": 195,
+      "height": 146
+    },
+    "1002-22": {
+      "src": "app/assets/questions/test02/1002-22.png",
+      "page": 5,
+      "top": 579,
+      "left": 51,
+      "width": 195,
+      "height": 129
+    },
+    "1002-23": {
+      "src": "app/assets/questions/test02/1002-23.png",
+      "page": 5,
+      "top": 801,
+      "left": 51,
+      "width": 196,
+      "height": 136
+    },
+    "1002-24": {
+      "src": "app/assets/questions/test02/1002-24.png",
+      "page": 5,
+      "top": 1025,
+      "left": 51,
+      "width": 195,
+      "height": 147
+    },
+    "1002-25": {
+      "src": "app/assets/questions/test02/1002-25.png",
+      "page": 6,
+      "top": 133,
+      "left": 51,
+      "width": 196,
+      "height": 135
+    },
+    "1002-26": {
+      "src": "app/assets/questions/test02/1002-26.png",
+      "page": 6,
+      "top": 371,
+      "left": 51,
+      "width": 196,
+      "height": 134
+    },
+    "1002-27": {
+      "src": "app/assets/questions/test02/1002-27.png",
+      "page": 6,
+      "top": 629,
+      "left": 51,
+      "width": 195,
+      "height": 129
+    },
+    "1002-28": {
+      "src": "app/assets/questions/test02/1002-28.png",
+      "page": 6,
+      "top": 832,
+      "left": 51,
+      "width": 196,
+      "height": 123
+    },
+    "1002-29": {
+      "src": "app/assets/questions/test02/1002-29.png",
+      "page": 6,
+      "top": 1072,
+      "left": 51,
+      "width": 196,
+      "height": 123
+    },
+    "1002-30": {
+      "src": "app/assets/questions/test02/1002-30.png",
+      "page": 7,
+      "top": 171,
+      "left": 51,
+      "width": 195,
+      "height": 146
+    },
+    "1003-01": {
+      "src": "app/assets/questions/test03/1003-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 49,
+      "width": 207,
+      "height": 141
+    },
+    "1003-02": {
+      "src": "app/assets/questions/test03/1003-02.png",
+      "page": 1,
+      "top": 399,
+      "left": 49,
+      "width": 208,
+      "height": 145
+    },
+    "1003-03": {
+      "src": "app/assets/questions/test03/1003-03.png",
+      "page": 1,
+      "top": 630,
+      "left": 49,
+      "width": 207,
+      "height": 145
+    },
+    "1003-06": {
+      "src": "app/assets/questions/test03/1003-06.png",
+      "page": 2,
+      "top": 312,
+      "left": 49,
+      "width": 207,
+      "height": 144
+    },
+    "1003-07": {
+      "src": "app/assets/questions/test03/1003-07.png",
+      "page": 2,
+      "top": 536,
+      "left": 49,
+      "width": 207,
+      "height": 141
+    },
+    "1003-08": {
+      "src": "app/assets/questions/test03/1003-08.png",
+      "page": 2,
+      "top": 779,
+      "left": 49,
+      "width": 208,
+      "height": 143
+    },
+    "1003-09": {
+      "src": "app/assets/questions/test03/1003-09.png",
+      "page": 2,
+      "top": 986,
+      "left": 49,
+      "width": 207,
+      "height": 144
+    },
+    "1003-10": {
+      "src": "app/assets/questions/test03/1003-10.png",
+      "page": 3,
+      "top": 67,
+      "left": 49,
+      "width": 208,
+      "height": 144
+    },
+    "1003-11": {
+      "src": "app/assets/questions/test03/1003-11.png",
+      "page": 3,
+      "top": 334,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1003-12": {
+      "src": "app/assets/questions/test03/1003-12.png",
+      "page": 3,
+      "top": 539,
+      "left": 48,
+      "width": 210,
+      "height": 143
+    },
+    "1003-13": {
+      "src": "app/assets/questions/test03/1003-13.png",
+      "page": 3,
+      "top": 763,
+      "left": 48,
+      "width": 208,
+      "height": 143
+    },
+    "1003-14": {
+      "src": "app/assets/questions/test03/1003-14.png",
+      "page": 3,
+      "top": 1008,
+      "left": 48,
+      "width": 208,
+      "height": 131
+    },
+    "1003-15": {
+      "src": "app/assets/questions/test03/1003-15.png",
+      "page": 4,
+      "top": 117,
+      "left": 48,
+      "width": 208,
+      "height": 141
+    },
+    "1003-16": {
+      "src": "app/assets/questions/test03/1003-16.png",
+      "page": 4,
+      "top": 343,
+      "left": 48,
+      "width": 208,
+      "height": 131
+    },
+    "1003-18": {
+      "src": "app/assets/questions/test03/1003-18.png",
+      "page": 4,
+      "top": 797,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1003-19": {
+      "src": "app/assets/questions/test03/1003-19.png",
+      "page": 4,
+      "top": 1021,
+      "left": 48,
+      "width": 210,
+      "height": 138
+    },
+    "1003-20": {
+      "src": "app/assets/questions/test03/1003-20.png",
+      "page": 5,
+      "top": 115,
+      "left": 48,
+      "width": 210,
+      "height": 143
+    },
+    "1003-21": {
+      "src": "app/assets/questions/test03/1003-21.png",
+      "page": 5,
+      "top": 347,
+      "left": 48,
+      "width": 210,
+      "height": 149
+    },
+    "1003-22": {
+      "src": "app/assets/questions/test03/1003-22.png",
+      "page": 5,
+      "top": 580,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1003-23": {
+      "src": "app/assets/questions/test03/1003-23.png",
+      "page": 5,
+      "top": 823,
+      "left": 48,
+      "width": 208,
+      "height": 143
+    },
+    "1003-25": {
+      "src": "app/assets/questions/test03/1003-25.png",
+      "page": 6,
+      "top": 245,
+      "left": 48,
+      "width": 208,
+      "height": 131
+    },
+    "1003-26": {
+      "src": "app/assets/questions/test03/1003-26.png",
+      "page": 6,
+      "top": 447,
+      "left": 48,
+      "width": 210,
+      "height": 145
+    },
+    "1003-27": {
+      "src": "app/assets/questions/test03/1003-27.png",
+      "page": 6,
+      "top": 698,
+      "left": 48,
+      "width": 208,
+      "height": 141
+    },
+    "1003-28": {
+      "src": "app/assets/questions/test03/1003-28.png",
+      "page": 6,
+      "top": 903,
+      "left": 48,
+      "width": 208,
+      "height": 149
+    },
+    "1003-30": {
+      "src": "app/assets/questions/test03/1003-30.png",
+      "page": 7,
+      "top": 248,
+      "left": 48,
+      "width": 208,
+      "height": 131
+    },
+    "1004-01": {
+      "src": "app/assets/questions/test04/1004-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 49,
+      "width": 207,
+      "height": 131
+    },
+    "1004-02": {
+      "src": "app/assets/questions/test04/1004-02.png",
+      "page": 1,
+      "top": 362,
+      "left": 49,
+      "width": 207,
+      "height": 144
+    },
+    "1004-03": {
+      "src": "app/assets/questions/test04/1004-03.png",
+      "page": 1,
+      "top": 592,
+      "left": 49,
+      "width": 208,
+      "height": 143
+    },
+    "1004-05": {
+      "src": "app/assets/questions/test04/1004-05.png",
+      "page": 2,
+      "top": 86,
+      "left": 49,
+      "width": 207,
+      "height": 129
+    },
+    "1004-06": {
+      "src": "app/assets/questions/test04/1004-06.png",
+      "page": 2,
+      "top": 312,
+      "left": 49,
+      "width": 207,
+      "height": 145
+    },
+    "1004-07": {
+      "src": "app/assets/questions/test04/1004-07.png",
+      "page": 2,
+      "top": 555,
+      "left": 49,
+      "width": 208,
+      "height": 143
+    },
+    "1004-08": {
+      "src": "app/assets/questions/test04/1004-08.png",
+      "page": 2,
+      "top": 760,
+      "left": 49,
+      "width": 207,
+      "height": 145
+    },
+    "1004-09": {
+      "src": "app/assets/questions/test04/1004-09.png",
+      "page": 2,
+      "top": 984,
+      "left": 49,
+      "width": 207,
+      "height": 141
+    },
+    "1004-10": {
+      "src": "app/assets/questions/test04/1004-10.png",
+      "page": 3,
+      "top": 88,
+      "left": 49,
+      "width": 199,
+      "height": 181
+    },
+    "1004-11": {
+      "src": "app/assets/questions/test04/1004-11.png",
+      "page": 3,
+      "top": 334,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1004-12": {
+      "src": "app/assets/questions/test04/1004-12.png",
+      "page": 3,
+      "top": 558,
+      "left": 48,
+      "width": 201,
+      "height": 189
+    },
+    "1004-13": {
+      "src": "app/assets/questions/test04/1004-13.png",
+      "page": 3,
+      "top": 784,
+      "left": 48,
+      "width": 186,
+      "height": 185
+    },
+    "1004-14": {
+      "src": "app/assets/questions/test04/1004-14.png",
+      "page": 3,
+      "top": 1029,
+      "left": 48,
+      "width": 208,
+      "height": 131
+    },
+    "1004-15": {
+      "src": "app/assets/questions/test04/1004-15.png",
+      "page": 4,
+      "top": 117,
+      "left": 48,
+      "width": 210,
+      "height": 145
+    },
+    "1004-16": {
+      "src": "app/assets/questions/test04/1004-16.png",
+      "page": 4,
+      "top": 343,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1004-17": {
+      "src": "app/assets/questions/test04/1004-17.png",
+      "page": 4,
+      "top": 590,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1004-18": {
+      "src": "app/assets/questions/test04/1004-18.png",
+      "page": 4,
+      "top": 795,
+      "left": 48,
+      "width": 208,
+      "height": 144
+    },
+    "1004-19": {
+      "src": "app/assets/questions/test04/1004-19.png",
+      "page": 4,
+      "top": 1000,
+      "left": 48,
+      "width": 162,
+      "height": 153
+    },
+    "1004-20": {
+      "src": "app/assets/questions/test04/1004-20.png",
+      "page": 5,
+      "top": 115,
+      "left": 48,
+      "width": 208,
+      "height": 144
+    },
+    "1004-21": {
+      "src": "app/assets/questions/test04/1004-21.png",
+      "page": 5,
+      "top": 347,
+      "left": 48,
+      "width": 177,
+      "height": 172
+    },
+    "1004-22": {
+      "src": "app/assets/questions/test04/1004-22.png",
+      "page": 5,
+      "top": 618,
+      "left": 48,
+      "width": 210,
+      "height": 143
+    },
+    "1004-23": {
+      "src": "app/assets/questions/test04/1004-23.png",
+      "page": 5,
+      "top": 842,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1004-25": {
+      "src": "app/assets/questions/test04/1004-25.png",
+      "page": 6,
+      "top": 247,
+      "left": 48,
+      "width": 210,
+      "height": 143
+    },
+    "1004-26": {
+      "src": "app/assets/questions/test04/1004-26.png",
+      "page": 6,
+      "top": 451,
+      "left": 48,
+      "width": 208,
+      "height": 149
+    },
+    "1004-27": {
+      "src": "app/assets/questions/test04/1004-27.png",
+      "page": 6,
+      "top": 702,
+      "left": 48,
+      "width": 210,
+      "height": 144
+    },
+    "1004-28": {
+      "src": "app/assets/questions/test04/1004-28.png",
+      "page": 6,
+      "top": 964,
+      "left": 48,
+      "width": 208,
+      "height": 144
+    },
+    "1004-30": {
+      "src": "app/assets/questions/test04/1004-30.png",
+      "page": 7,
+      "top": 236,
+      "left": 48,
+      "width": 208,
+      "height": 143
+    },
+    "1005-01": {
+      "src": "app/assets/questions/test05/1005-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 48,
+      "width": 192,
+      "height": 129
+    },
+    "1005-02": {
+      "src": "app/assets/questions/test05/1005-02.png",
+      "page": 1,
+      "top": 362,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1005-03": {
+      "src": "app/assets/questions/test05/1005-03.png",
+      "page": 1,
+      "top": 567,
+      "left": 48,
+      "width": 190,
+      "height": 131
+    },
+    "1005-04": {
+      "src": "app/assets/questions/test05/1005-04.png",
+      "page": 1,
+      "top": 771,
+      "left": 48,
+      "width": 190,
+      "height": 134
+    },
+    "1005-05": {
+      "src": "app/assets/questions/test05/1005-05.png",
+      "page": 1,
+      "top": 976,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1005-06": {
+      "src": "app/assets/questions/test05/1005-06.png",
+      "page": 2,
+      "top": 88,
+      "left": 48,
+      "width": 179,
+      "height": 158
+    },
+    "1005-07": {
+      "src": "app/assets/questions/test05/1005-07.png",
+      "page": 2,
+      "top": 290,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1005-08": {
+      "src": "app/assets/questions/test05/1005-08.png",
+      "page": 2,
+      "top": 512,
+      "left": 48,
+      "width": 181,
+      "height": 163
+    },
+    "1005-09": {
+      "src": "app/assets/questions/test05/1005-09.png",
+      "page": 2,
+      "top": 772,
+      "left": 48,
+      "width": 192,
+      "height": 120
+    },
+    "1005-10": {
+      "src": "app/assets/questions/test05/1005-10.png",
+      "page": 2,
+      "top": 976,
+      "left": 48,
+      "width": 190,
+      "height": 132
+    },
+    "1005-11": {
+      "src": "app/assets/questions/test05/1005-11.png",
+      "page": 3,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1005-12": {
+      "src": "app/assets/questions/test05/1005-12.png",
+      "page": 3,
+      "top": 290,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1005-13": {
+      "src": "app/assets/questions/test05/1005-13.png",
+      "page": 3,
+      "top": 512,
+      "left": 48,
+      "width": 194,
+      "height": 122
+    },
+    "1005-14": {
+      "src": "app/assets/questions/test05/1005-14.png",
+      "page": 3,
+      "top": 734,
+      "left": 48,
+      "width": 194,
+      "height": 122
+    },
+    "1005-15": {
+      "src": "app/assets/questions/test05/1005-15.png",
+      "page": 3,
+      "top": 994,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1005-16": {
+      "src": "app/assets/questions/test05/1005-16.png",
+      "page": 4,
+      "top": 115,
+      "left": 48,
+      "width": 195,
+      "height": 135
+    },
+    "1005-17": {
+      "src": "app/assets/questions/test05/1005-17.png",
+      "page": 4,
+      "top": 376,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1005-18": {
+      "src": "app/assets/questions/test05/1005-18.png",
+      "page": 4,
+      "top": 598,
+      "left": 48,
+      "width": 195,
+      "height": 134
+    },
+    "1005-19": {
+      "src": "app/assets/questions/test05/1005-19.png",
+      "page": 4,
+      "top": 801,
+      "left": 48,
+      "width": 194,
+      "height": 122
+    },
+    "1005-20": {
+      "src": "app/assets/questions/test05/1005-20.png",
+      "page": 4,
+      "top": 1022,
+      "left": 48,
+      "width": 192,
+      "height": 131
+    },
+    "1005-21": {
+      "src": "app/assets/questions/test05/1005-21.png",
+      "page": 5,
+      "top": 133,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1005-22": {
+      "src": "app/assets/questions/test05/1005-22.png",
+      "page": 5,
+      "top": 336,
+      "left": 48,
+      "width": 195,
+      "height": 134
+    },
+    "1005-23": {
+      "src": "app/assets/questions/test05/1005-23.png",
+      "page": 5,
+      "top": 558,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1005-24": {
+      "src": "app/assets/questions/test05/1005-24.png",
+      "page": 5,
+      "top": 762,
+      "left": 48,
+      "width": 192,
+      "height": 131
+    },
+    "1005-25": {
+      "src": "app/assets/questions/test05/1005-25.png",
+      "page": 5,
+      "top": 999,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1005-26": {
+      "src": "app/assets/questions/test05/1005-26.png",
+      "page": 6,
+      "top": 150,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1005-27": {
+      "src": "app/assets/questions/test05/1005-27.png",
+      "page": 6,
+      "top": 390,
+      "left": 48,
+      "width": 186,
+      "height": 161
+    },
+    "1005-28": {
+      "src": "app/assets/questions/test05/1005-28.png",
+      "page": 6,
+      "top": 629,
+      "left": 48,
+      "width": 192,
+      "height": 131
+    },
+    "1005-29": {
+      "src": "app/assets/questions/test05/1005-29.png",
+      "page": 6,
+      "top": 850,
+      "left": 48,
+      "width": 192,
+      "height": 120
+    },
+    "1005-30": {
+      "src": "app/assets/questions/test05/1005-30.png",
+      "page": 6,
+      "top": 1070,
+      "left": 48,
+      "width": 192,
+      "height": 122
+    },
+    "1006-01": {
+      "src": "app/assets/questions/test06/1006-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 48,
+      "width": 192,
+      "height": 118
+    },
+    "1006-02": {
+      "src": "app/assets/questions/test06/1006-02.png",
+      "page": 1,
+      "top": 362,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1006-03": {
+      "src": "app/assets/questions/test06/1006-03.png",
+      "page": 1,
+      "top": 549,
+      "left": 48,
+      "width": 192,
+      "height": 150
+    },
+    "1006-04": {
+      "src": "app/assets/questions/test06/1006-04.png",
+      "page": 1,
+      "top": 750,
+      "left": 48,
+      "width": 192,
+      "height": 134
+    },
+    "1006-05": {
+      "src": "app/assets/questions/test06/1006-05.png",
+      "page": 1,
+      "top": 972,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1006-06": {
+      "src": "app/assets/questions/test06/1006-06.png",
+      "page": 2,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-07": {
+      "src": "app/assets/questions/test06/1006-07.png",
+      "page": 2,
+      "top": 309,
+      "left": 48,
+      "width": 192,
+      "height": 122
+    },
+    "1006-08": {
+      "src": "app/assets/questions/test06/1006-08.png",
+      "page": 2,
+      "top": 531,
+      "left": 48,
+      "width": 192,
+      "height": 120
+    },
+    "1006-09": {
+      "src": "app/assets/questions/test06/1006-09.png",
+      "page": 2,
+      "top": 772,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-10": {
+      "src": "app/assets/questions/test06/1006-10.png",
+      "page": 2,
+      "top": 1013,
+      "left": 48,
+      "width": 194,
+      "height": 122
+    },
+    "1006-11": {
+      "src": "app/assets/questions/test06/1006-11.png",
+      "page": 3,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-12": {
+      "src": "app/assets/questions/test06/1006-12.png",
+      "page": 3,
+      "top": 290,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-13": {
+      "src": "app/assets/questions/test06/1006-13.png",
+      "page": 3,
+      "top": 531,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-14": {
+      "src": "app/assets/questions/test06/1006-14.png",
+      "page": 3,
+      "top": 753,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1006-15": {
+      "src": "app/assets/questions/test06/1006-15.png",
+      "page": 3,
+      "top": 976,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1006-16": {
+      "src": "app/assets/questions/test06/1006-16.png",
+      "page": 4,
+      "top": 88,
+      "left": 48,
+      "width": 195,
+      "height": 163
+    },
+    "1006-17": {
+      "src": "app/assets/questions/test06/1006-17.png",
+      "page": 4,
+      "top": 328,
+      "left": 48,
+      "width": 195,
+      "height": 122
+    },
+    "1006-18": {
+      "src": "app/assets/questions/test06/1006-18.png",
+      "page": 4,
+      "top": 550,
+      "left": 48,
+      "width": 192,
+      "height": 134
+    },
+    "1006-19": {
+      "src": "app/assets/questions/test06/1006-19.png",
+      "page": 4,
+      "top": 772,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-20": {
+      "src": "app/assets/questions/test06/1006-20.png",
+      "page": 4,
+      "top": 1012,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-21": {
+      "src": "app/assets/questions/test06/1006-21.png",
+      "page": 5,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 122
+    },
+    "1006-22": {
+      "src": "app/assets/questions/test06/1006-22.png",
+      "page": 5,
+      "top": 310,
+      "left": 48,
+      "width": 195,
+      "height": 123
+    },
+    "1006-23": {
+      "src": "app/assets/questions/test06/1006-23.png",
+      "page": 5,
+      "top": 514,
+      "left": 48,
+      "width": 195,
+      "height": 123
+    },
+    "1006-24": {
+      "src": "app/assets/questions/test06/1006-24.png",
+      "page": 5,
+      "top": 755,
+      "left": 48,
+      "width": 192,
+      "height": 122
+    },
+    "1006-25": {
+      "src": "app/assets/questions/test06/1006-25.png",
+      "page": 5,
+      "top": 993,
+      "left": 48,
+      "width": 194,
+      "height": 99
+    },
+    "1006-26": {
+      "src": "app/assets/questions/test06/1006-26.png",
+      "page": 6,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-27": {
+      "src": "app/assets/questions/test06/1006-27.png",
+      "page": 6,
+      "top": 309,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-28": {
+      "src": "app/assets/questions/test06/1006-28.png",
+      "page": 6,
+      "top": 548,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1006-29": {
+      "src": "app/assets/questions/test06/1006-29.png",
+      "page": 6,
+      "top": 750,
+      "left": 48,
+      "width": 194,
+      "height": 123
+    },
+    "1006-30": {
+      "src": "app/assets/questions/test06/1006-30.png",
+      "page": 6,
+      "top": 970,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1007-01": {
+      "src": "app/assets/questions/test07/1007-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 48,
+      "width": 194,
+      "height": 161
+    },
+    "1007-02": {
+      "src": "app/assets/questions/test07/1007-02.png",
+      "page": 1,
+      "top": 381,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1007-03": {
+      "src": "app/assets/questions/test07/1007-03.png",
+      "page": 1,
+      "top": 586,
+      "left": 48,
+      "width": 186,
+      "height": 152
+    },
+    "1007-04": {
+      "src": "app/assets/questions/test07/1007-04.png",
+      "page": 1,
+      "top": 788,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1007-05": {
+      "src": "app/assets/questions/test07/1007-05.png",
+      "page": 1,
+      "top": 1010,
+      "left": 48,
+      "width": 192,
+      "height": 135
+    },
+    "1007-06": {
+      "src": "app/assets/questions/test07/1007-06.png",
+      "page": 2,
+      "top": 88,
+      "left": 48,
+      "width": 190,
+      "height": 132
+    },
+    "1007-07": {
+      "src": "app/assets/questions/test07/1007-07.png",
+      "page": 2,
+      "top": 328,
+      "left": 48,
+      "width": 118,
+      "height": 159
+    },
+    "1007-08": {
+      "src": "app/assets/questions/test07/1007-08.png",
+      "page": 2,
+      "top": 550,
+      "left": 48,
+      "width": 194,
+      "height": 132
+    },
+    "1007-09": {
+      "src": "app/assets/questions/test07/1007-09.png",
+      "page": 2,
+      "top": 772,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1007-10": {
+      "src": "app/assets/questions/test07/1007-10.png",
+      "page": 2,
+      "top": 1013,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1007-11": {
+      "src": "app/assets/questions/test07/1007-11.png",
+      "page": 3,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 130
+    },
+    "1007-12": {
+      "src": "app/assets/questions/test07/1007-12.png",
+      "page": 3,
+      "top": 290,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1007-13": {
+      "src": "app/assets/questions/test07/1007-13.png",
+      "page": 3,
+      "top": 493,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1007-14": {
+      "src": "app/assets/questions/test07/1007-14.png",
+      "page": 3,
+      "top": 715,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1007-15": {
+      "src": "app/assets/questions/test07/1007-15.png",
+      "page": 3,
+      "top": 957,
+      "left": 48,
+      "width": 194,
+      "height": 123
+    },
+    "1007-16": {
+      "src": "app/assets/questions/test07/1007-16.png",
+      "page": 4,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 132
+    },
+    "1007-17": {
+      "src": "app/assets/questions/test07/1007-17.png",
+      "page": 4,
+      "top": 309,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1007-18": {
+      "src": "app/assets/questions/test07/1007-18.png",
+      "page": 4,
+      "top": 550,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1007-19": {
+      "src": "app/assets/questions/test07/1007-19.png",
+      "page": 4,
+      "top": 791,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1007-20": {
+      "src": "app/assets/questions/test07/1007-20.png",
+      "page": 4,
+      "top": 1012,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1007-21": {
+      "src": "app/assets/questions/test07/1007-21.png",
+      "page": 5,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1007-22": {
+      "src": "app/assets/questions/test07/1007-22.png",
+      "page": 5,
+      "top": 291,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1007-23": {
+      "src": "app/assets/questions/test07/1007-23.png",
+      "page": 5,
+      "top": 514,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1007-24": {
+      "src": "app/assets/questions/test07/1007-24.png",
+      "page": 5,
+      "top": 755,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1007-25": {
+      "src": "app/assets/questions/test07/1007-25.png",
+      "page": 5,
+      "top": 993,
+      "left": 48,
+      "width": 194,
+      "height": 120
+    },
+    "1007-26": {
+      "src": "app/assets/questions/test07/1007-26.png",
+      "page": 6,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 132
+    },
+    "1007-27": {
+      "src": "app/assets/questions/test07/1007-27.png",
+      "page": 6,
+      "top": 309,
+      "left": 48,
+      "width": 195,
+      "height": 123
+    },
+    "1007-28": {
+      "src": "app/assets/questions/test07/1007-28.png",
+      "page": 6,
+      "top": 548,
+      "left": 48,
+      "width": 192,
+      "height": 122
+    },
+    "1007-29": {
+      "src": "app/assets/questions/test07/1007-29.png",
+      "page": 6,
+      "top": 769,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1007-30": {
+      "src": "app/assets/questions/test07/1007-30.png",
+      "page": 6,
+      "top": 988,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-01": {
+      "src": "app/assets/questions/test08/1008-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 48,
+      "width": 190,
+      "height": 120
+    },
+    "1008-02": {
+      "src": "app/assets/questions/test08/1008-02.png",
+      "page": 1,
+      "top": 381,
+      "left": 48,
+      "width": 192,
+      "height": 134
+    },
+    "1008-03": {
+      "src": "app/assets/questions/test08/1008-03.png",
+      "page": 1,
+      "top": 586,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-04": {
+      "src": "app/assets/questions/test08/1008-04.png",
+      "page": 1,
+      "top": 788,
+      "left": 48,
+      "width": 190,
+      "height": 132
+    },
+    "1008-05": {
+      "src": "app/assets/questions/test08/1008-05.png",
+      "page": 1,
+      "top": 1012,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1008-06": {
+      "src": "app/assets/questions/test08/1008-06.png",
+      "page": 2,
+      "top": 88,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-07": {
+      "src": "app/assets/questions/test08/1008-07.png",
+      "page": 2,
+      "top": 310,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-08": {
+      "src": "app/assets/questions/test08/1008-08.png",
+      "page": 2,
+      "top": 533,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-09": {
+      "src": "app/assets/questions/test08/1008-09.png",
+      "page": 2,
+      "top": 793,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-10": {
+      "src": "app/assets/questions/test08/1008-10.png",
+      "page": 2,
+      "top": 1015,
+      "left": 48,
+      "width": 192,
+      "height": 134
+    },
+    "1008-11": {
+      "src": "app/assets/questions/test08/1008-11.png",
+      "page": 3,
+      "top": 88,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-12": {
+      "src": "app/assets/questions/test08/1008-12.png",
+      "page": 3,
+      "top": 309,
+      "left": 48,
+      "width": 194,
+      "height": 122
+    },
+    "1008-13": {
+      "src": "app/assets/questions/test08/1008-13.png",
+      "page": 3,
+      "top": 512,
+      "left": 48,
+      "width": 194,
+      "height": 132
+    },
+    "1008-14": {
+      "src": "app/assets/questions/test08/1008-14.png",
+      "page": 3,
+      "top": 753,
+      "left": 48,
+      "width": 161,
+      "height": 129
+    },
+    "1008-15": {
+      "src": "app/assets/questions/test08/1008-15.png",
+      "page": 3,
+      "top": 976,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1008-16": {
+      "src": "app/assets/questions/test08/1008-16.png",
+      "page": 4,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1008-18": {
+      "src": "app/assets/questions/test08/1008-18.png",
+      "page": 4,
+      "top": 569,
+      "left": 48,
+      "width": 192,
+      "height": 132
+    },
+    "1008-19": {
+      "src": "app/assets/questions/test08/1008-19.png",
+      "page": 4,
+      "top": 791,
+      "left": 48,
+      "width": 192,
+      "height": 120
+    },
+    "1008-20": {
+      "src": "app/assets/questions/test08/1008-20.png",
+      "page": 4,
+      "top": 1012,
+      "left": 48,
+      "width": 194,
+      "height": 130
+    },
+    "1008-21": {
+      "src": "app/assets/questions/test08/1008-21.png",
+      "page": 5,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1008-22": {
+      "src": "app/assets/questions/test08/1008-22.png",
+      "page": 5,
+      "top": 291,
+      "left": 48,
+      "width": 181,
+      "height": 156
+    },
+    "1008-23": {
+      "src": "app/assets/questions/test08/1008-23.png",
+      "page": 5,
+      "top": 514,
+      "left": 48,
+      "width": 192,
+      "height": 120
+    },
+    "1008-24": {
+      "src": "app/assets/questions/test08/1008-24.png",
+      "page": 5,
+      "top": 755,
+      "left": 48,
+      "width": 194,
+      "height": 135
+    },
+    "1008-25": {
+      "src": "app/assets/questions/test08/1008-25.png",
+      "page": 5,
+      "top": 1012,
+      "left": 48,
+      "width": 192,
+      "height": 134
+    },
+    "1008-26": {
+      "src": "app/assets/questions/test08/1008-26.png",
+      "page": 6,
+      "top": 88,
+      "left": 48,
+      "width": 194,
+      "height": 132
+    },
+    "1008-27": {
+      "src": "app/assets/questions/test08/1008-27.png",
+      "page": 6,
+      "top": 309,
+      "left": 48,
+      "width": 163,
+      "height": 165
+    },
+    "1008-28": {
+      "src": "app/assets/questions/test08/1008-28.png",
+      "page": 6,
+      "top": 532,
+      "left": 48,
+      "width": 194,
+      "height": 136
+    },
+    "1008-29": {
+      "src": "app/assets/questions/test08/1008-29.png",
+      "page": 6,
+      "top": 752,
+      "left": 48,
+      "width": 194,
+      "height": 134
+    },
+    "1008-30": {
+      "src": "app/assets/questions/test08/1008-30.png",
+      "page": 6,
+      "top": 990,
+      "left": 48,
+      "width": 185,
+      "height": 159
+    },
+    "1009-01": {
+      "src": "app/assets/questions/test09/1009-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 56,
+      "width": 194,
+      "height": 133
+    },
+    "1009-02": {
+      "src": "app/assets/questions/test09/1009-02.png",
+      "page": 1,
+      "top": 419,
+      "left": 56,
+      "width": 194,
+      "height": 122
+    },
+    "1009-03": {
+      "src": "app/assets/questions/test09/1009-03.png",
+      "page": 1,
+      "top": 624,
+      "left": 56,
+      "width": 194,
+      "height": 135
+    },
+    "1009-04": {
+      "src": "app/assets/questions/test09/1009-04.png",
+      "page": 1,
+      "top": 826,
+      "left": 56,
+      "width": 194,
+      "height": 133
+    },
+    "1009-05": {
+      "src": "app/assets/questions/test09/1009-05.png",
+      "page": 1,
+      "top": 1029,
+      "left": 56,
+      "width": 194,
+      "height": 134
+    },
+    "1009-06": {
+      "src": "app/assets/questions/test09/1009-06.png",
+      "page": 2,
+      "top": 88,
+      "left": 56,
+      "width": 194,
+      "height": 133
+    },
+    "1009-07": {
+      "src": "app/assets/questions/test09/1009-07.png",
+      "page": 2,
+      "top": 310,
+      "left": 56,
+      "width": 194,
+      "height": 134
+    },
+    "1009-08": {
+      "src": "app/assets/questions/test09/1009-08.png",
+      "page": 2,
+      "top": 534,
+      "left": 56,
+      "width": 194,
+      "height": 120
+    },
+    "1009-09": {
+      "src": "app/assets/questions/test09/1009-09.png",
+      "page": 2,
+      "top": 739,
+      "left": 56,
+      "width": 194,
+      "height": 134
+    },
+    "1009-10": {
+      "src": "app/assets/questions/test09/1009-10.png",
+      "page": 2,
+      "top": 963,
+      "left": 56,
+      "width": 194,
+      "height": 128
+    },
+    "1009-11": {
+      "src": "app/assets/questions/test09/1009-11.png",
+      "page": 3,
+      "top": 88,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1009-12": {
+      "src": "app/assets/questions/test09/1009-12.png",
+      "page": 3,
+      "top": 290,
+      "left": 48,
+      "width": 196,
+      "height": 123
+    },
+    "1009-13": {
+      "src": "app/assets/questions/test09/1009-13.png",
+      "page": 3,
+      "top": 493,
+      "left": 48,
+      "width": 196,
+      "height": 137
+    },
+    "1009-14": {
+      "src": "app/assets/questions/test09/1009-14.png",
+      "page": 3,
+      "top": 715,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1009-15": {
+      "src": "app/assets/questions/test09/1009-15.png",
+      "page": 3,
+      "top": 938,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1009-16": {
+      "src": "app/assets/questions/test09/1009-16.png",
+      "page": 4,
+      "top": 88,
+      "left": 48,
+      "width": 196,
+      "height": 123
+    },
+    "1009-17": {
+      "src": "app/assets/questions/test09/1009-17.png",
+      "page": 4,
+      "top": 310,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1009-18": {
+      "src": "app/assets/questions/test09/1009-18.png",
+      "page": 4,
+      "top": 552,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1009-19": {
+      "src": "app/assets/questions/test09/1009-19.png",
+      "page": 4,
+      "top": 774,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1009-20": {
+      "src": "app/assets/questions/test09/1009-20.png",
+      "page": 4,
+      "top": 994,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1009-21": {
+      "src": "app/assets/questions/test09/1009-21.png",
+      "page": 5,
+      "top": 88,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1009-22": {
+      "src": "app/assets/questions/test09/1009-22.png",
+      "page": 5,
+      "top": 310,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1009-23": {
+      "src": "app/assets/questions/test09/1009-23.png",
+      "page": 5,
+      "top": 571,
+      "left": 48,
+      "width": 178,
+      "height": 156
+    },
+    "1009-24": {
+      "src": "app/assets/questions/test09/1009-24.png",
+      "page": 5,
+      "top": 831,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1009-25": {
+      "src": "app/assets/questions/test09/1009-25.png",
+      "page": 5,
+      "top": 1032,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1009-26": {
+      "src": "app/assets/questions/test09/1009-26.png",
+      "page": 6,
+      "top": 88,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1009-27": {
+      "src": "app/assets/questions/test09/1009-27.png",
+      "page": 6,
+      "top": 310,
+      "left": 48,
+      "width": 107,
+      "height": 144
+    },
+    "1009-28": {
+      "src": "app/assets/questions/test09/1009-28.png",
+      "page": 6,
+      "top": 512,
+      "left": 48,
+      "width": 196,
+      "height": 124
+    },
+    "1009-29": {
+      "src": "app/assets/questions/test09/1009-29.png",
+      "page": 6,
+      "top": 715,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1009-30": {
+      "src": "app/assets/questions/test09/1009-30.png",
+      "page": 6,
+      "top": 917,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1010-01": {
+      "src": "app/assets/questions/test10/1010-01.png",
+      "page": 1,
+      "top": 163,
+      "left": 56,
+      "width": 194,
+      "height": 134
+    },
+    "1010-02": {
+      "src": "app/assets/questions/test10/1010-02.png",
+      "page": 1,
+      "top": 400,
+      "left": 56,
+      "width": 194,
+      "height": 134
+    },
+    "1010-03": {
+      "src": "app/assets/questions/test10/1010-03.png",
+      "page": 1,
+      "top": 605,
+      "left": 56,
+      "width": 194,
+      "height": 122
+    },
+    "1010-04": {
+      "src": "app/assets/questions/test10/1010-04.png",
+      "page": 1,
+      "top": 807,
+      "left": 56,
+      "width": 194,
+      "height": 123
+    },
+    "1010-05": {
+      "src": "app/assets/questions/test10/1010-05.png",
+      "page": 1,
+      "top": 1029,
+      "left": 56,
+      "width": 194,
+      "height": 120
+    },
+    "1010-06": {
+      "src": "app/assets/questions/test10/1010-06.png",
+      "page": 2,
+      "top": 88,
+      "left": 56,
+      "width": 194,
+      "height": 123
+    },
+    "1010-07": {
+      "src": "app/assets/questions/test10/1010-07.png",
+      "page": 2,
+      "top": 309,
+      "left": 56,
+      "width": 194,
+      "height": 132
+    },
+    "1010-08": {
+      "src": "app/assets/questions/test10/1010-08.png",
+      "page": 2,
+      "top": 531,
+      "left": 56,
+      "width": 194,
+      "height": 122
+    },
+    "1010-09": {
+      "src": "app/assets/questions/test10/1010-09.png",
+      "page": 2,
+      "top": 752,
+      "left": 56,
+      "width": 194,
+      "height": 133
+    },
+    "1010-10": {
+      "src": "app/assets/questions/test10/1010-10.png",
+      "page": 2,
+      "top": 974,
+      "left": 56,
+      "width": 194,
+      "height": 123
+    },
+    "1010-11": {
+      "src": "app/assets/questions/test10/1010-11.png",
+      "page": 3,
+      "top": 88,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-12": {
+      "src": "app/assets/questions/test10/1010-12.png",
+      "page": 3,
+      "top": 309,
+      "left": 48,
+      "width": 196,
+      "height": 130
+    },
+    "1010-13": {
+      "src": "app/assets/questions/test10/1010-13.png",
+      "page": 3,
+      "top": 512,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-14": {
+      "src": "app/assets/questions/test10/1010-14.png",
+      "page": 3,
+      "top": 715,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1010-15": {
+      "src": "app/assets/questions/test10/1010-15.png",
+      "page": 3,
+      "top": 958,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-16": {
+      "src": "app/assets/questions/test10/1010-16.png",
+      "page": 4,
+      "top": 88,
+      "left": 48,
+      "width": 196,
+      "height": 137
+    },
+    "1010-17": {
+      "src": "app/assets/questions/test10/1010-17.png",
+      "page": 4,
+      "top": 309,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-18": {
+      "src": "app/assets/questions/test10/1010-18.png",
+      "page": 4,
+      "top": 569,
+      "left": 48,
+      "width": 196,
+      "height": 123
+    },
+    "1010-19": {
+      "src": "app/assets/questions/test10/1010-19.png",
+      "page": 4,
+      "top": 791,
+      "left": 48,
+      "width": 196,
+      "height": 124
+    },
+    "1010-20": {
+      "src": "app/assets/questions/test10/1010-20.png",
+      "page": 4,
+      "top": 1012,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1010-21": {
+      "src": "app/assets/questions/test10/1010-21.png",
+      "page": 5,
+      "top": 88,
+      "left": 48,
+      "width": 182,
+      "height": 156
+    },
+    "1010-22": {
+      "src": "app/assets/questions/test10/1010-22.png",
+      "page": 5,
+      "top": 291,
+      "left": 48,
+      "width": 196,
+      "height": 123
+    },
+    "1010-23": {
+      "src": "app/assets/questions/test10/1010-23.png",
+      "page": 5,
+      "top": 514,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1010-24": {
+      "src": "app/assets/questions/test10/1010-24.png",
+      "page": 5,
+      "top": 755,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-25": {
+      "src": "app/assets/questions/test10/1010-25.png",
+      "page": 5,
+      "top": 993,
+      "left": 48,
+      "width": 196,
+      "height": 123
+    },
+    "1010-26": {
+      "src": "app/assets/questions/test10/1010-26.png",
+      "page": 6,
+      "top": 88,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-27": {
+      "src": "app/assets/questions/test10/1010-27.png",
+      "page": 6,
+      "top": 309,
+      "left": 48,
+      "width": 196,
+      "height": 134
+    },
+    "1010-28": {
+      "src": "app/assets/questions/test10/1010-28.png",
+      "page": 6,
+      "top": 529,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-29": {
+      "src": "app/assets/questions/test10/1010-29.png",
+      "page": 6,
+      "top": 750,
+      "left": 48,
+      "width": 196,
+      "height": 135
+    },
+    "1010-30": {
+      "src": "app/assets/questions/test10/1010-30.png",
+      "page": 6,
+      "top": 988,
+      "left": 48,
+      "width": 182,
+      "height": 158
+    }
+  }
+}

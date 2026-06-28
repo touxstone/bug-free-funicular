@@ -1,0 +1,14 @@
+{
+  "name": "autoescuela-flashcards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract-questions.js",
+    "extract:images": "node scripts/extract-images.js",
+    "build": "node scripts/build-flashcards.js",
+    "validate": "node scripts/validate-data.js",
+    "prepare:data": "npm run extract && npm run extract:images && npm run build && npm run validate",
+    "serve": "python3 -m http.server 4173"
+  }
+}

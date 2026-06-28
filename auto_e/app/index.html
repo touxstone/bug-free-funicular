@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Autoescuela Flashcards</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Autoescuela</p>
+          <h1>Flashcards</h1>
+        </div>
+        <div class="stats" aria-live="polite">
+          <span id="position">0/0</span>
+          <span id="known-count">0 sabidas</span>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="Filtros">
+        <label>
+          Test
+          <select id="test-filter">
+            <option value="all">Todos</option>
+          </select>
+        </label>
+        <label class="toggle">
+          <input id="image-filter" type="checkbox">
+          Solo visuales
+        </label>
+      </section>
+
+      <section class="card" id="card" aria-live="polite">
+        <div class="card-meta">
+          <span id="card-id">...</span>
+          <span id="image-badge" hidden>Imagen</span>
+        </div>
+        <img id="card-image" class="card-image" alt="" hidden>
+        <h2 id="question">Cargando...</h2>
+        <ol class="options" id="options"></ol>
+        <div class="answer" id="answer" hidden></div>
+      </section>
+
+      <nav class="actions" aria-label="Acciones de repaso">
+        <button id="prev-button" type="button">Anterior</button>
+        <button id="reveal-button" type="button">Ver respuesta</button>
+        <button id="known-button" type="button">La sé</button>
+        <button id="next-button" type="button">Siguiente</button>
+      </nav>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
