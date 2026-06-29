@@ -13,6 +13,7 @@ import { currentSectionId, goToSection, onRouteChange } from "./router.js";
 import { searchSections } from "./search.js";
 
 const TRASH_TEXT = new Set(["Fi div pgman"]);
+const APP_VERSION = "20260629-2";
 const STATUS_LABELS = {
   ready: "Lista",
   container_only: "Agrupador",
@@ -873,7 +874,10 @@ function wireEvents() {
 
 function registerServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
-  navigator.serviceWorker.register("./sw.js").catch(() => {});
+  navigator.serviceWorker
+    .register(`./sw.js?v=${APP_VERSION}`)
+    .then((registration) => registration.update())
+    .catch(() => {});
 }
 
 async function boot() {

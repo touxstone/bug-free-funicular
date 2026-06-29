@@ -1,4 +1,4 @@
-const CACHE_NAME = "manual-b-v1";
+const CACHE_NAME = "manual-b-v2";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -13,6 +13,7 @@ const CORE_ASSETS = [
   "./icons/icon.svg",
   "../data/json/manual.json"
 ];
+const APP_BASE = new URL("./", self.location.href).pathname;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -33,21 +34,35 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
-  const cacheFirst =
-    url.pathname.includes("/assets/img/") ||
-    url.pathname.endsWith("/manual.json") ||
-    url.pathname.startsWith(`${self.location.pathname.replace(/\/sw\.js$/, "")}/`);
+  if (url.origin !== self.location.origin) return;
 
-  if (!cacheFirst) return;
+  const cacheFirst = url.pathname.includes("/assets/img/") || url.pathname.endsWith("/manual.json");
+  const networkFirst = url.pathname.startsWith(APP_BASE);
 
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
-        const copy = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-        return response;
-      });
-    })
-  );
+  if (cacheFirst) {
+    event.respondWith(
+      caches.match(event.request).then((cached) => {
+        if (cached) return cached;
+        return fetch(event.request).then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        });
+      })
+    );
+    return;
+  }
+
+  if (networkFirst) {
+    event.respondWith(
+        fetch(event.request)
+        .then((response) => {
+          if (!response.ok) return response;
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+  }
 });
