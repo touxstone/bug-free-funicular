@@ -46,6 +46,7 @@ const els = {
   studyView: document.querySelector("#studyView"),
   studyRail: document.querySelector("#studyRail"),
   searchInput: document.querySelector("#searchInput"),
+  searchFeedback: document.querySelector("#searchFeedback"),
   resultsPanel: document.querySelector("#resultsPanel"),
   searchResults: document.querySelector("#searchResults"),
   previousButton: document.querySelector("#previousButton"),
@@ -677,8 +678,32 @@ function resetStudyData() {
   updateProgressCounts();
 }
 
-function renderSearchResults(query) {
-  const results = searchSections(app.sections, query);
+function renderSearchFeedback(query, results) {
+  const term = query.trim();
+  els.searchFeedback.hidden = !term;
+  if (!term) {
+    els.searchFeedback.innerHTML = "";
+    return;
+  }
+
+  const firstResult = results[0]?.section;
+  els.searchFeedback.innerHTML = `
+    <div>
+      <strong>${results.length} coincidencias</strong>
+      <span>${results.length ? `Indice filtrado por "${escapeHtml(term)}".` : "Prueba con otro termino."}</span>
+    </div>
+    <div class="search-feedback-actions">
+      ${
+        firstResult
+          ? `<button data-section-id="${firstResult.id}" type="button">Ir a la primera</button>`
+          : ""
+      }
+      <button data-clear-search type="button">Limpiar</button>
+    </div>
+  `;
+}
+
+function renderSearchResults(query, results = searchSections(app.sections, query)) {
   els.resultsPanel.hidden = !query.trim();
   els.searchResults.innerHTML = results.length
     ? results
@@ -692,6 +717,24 @@ function renderSearchResults(query) {
         )
         .join("")
     : `<p class="quiet">Nada. Ese termino se hizo el sueco.</p>`;
+}
+
+function applySearchQuery(query) {
+  const term = query.trim();
+  app.navFilter = "all";
+  app.focusTerm = term;
+  const results = searchSections(app.sections, term);
+  renderSearchFeedback(term, results);
+  renderSearchResults(term, results);
+  renderNavigation();
+  renderStudyTools();
+  return results;
+}
+
+function clearSearchDisplay() {
+  els.searchInput.value = "";
+  renderSearchFeedback("", []);
+  renderSearchResults("", []);
 }
 
 function setActiveSection(sectionId) {
@@ -721,6 +764,13 @@ function wireEvents() {
       return;
     }
 
+    const clearSearchButton = event.target.closest("[data-clear-search]");
+    if (clearSearchButton) {
+      els.searchInput.value = "";
+      applySearchQuery("");
+      return;
+    }
+
     const progressButton = event.target.closest("[data-progress-state]");
     if (progressButton && app.activeSection) {
       setSectionState(app.progress, app.activeSection.id, progressButton.dataset.progressState);
@@ -736,6 +786,7 @@ function wireEvents() {
     if (filterButton) {
       app.navFilter = filterButton.dataset.filter;
       app.focusTerm = "";
+      clearSearchDisplay();
       renderNavigation();
       renderStudyTools();
       return;
@@ -746,9 +797,7 @@ function wireEvents() {
       app.navFilter = "all";
       app.focusTerm = termButton.dataset.term;
       els.searchInput.value = app.focusTerm;
-      renderSearchResults(app.focusTerm);
-      renderNavigation();
-      renderStudyTools();
+      applySearchQuery(app.focusTerm);
       return;
     }
 
@@ -757,9 +806,7 @@ function wireEvents() {
       app.navFilter = "all";
       app.focusTerm = "";
       els.searchInput.value = "";
-      renderSearchResults("");
-      renderNavigation();
-      renderStudyTools();
+      applySearchQuery("");
       return;
     }
 
@@ -784,7 +831,16 @@ function wireEvents() {
   });
 
   els.searchInput.addEventListener("input", (event) => {
-    renderSearchResults(event.target.value);
+    applySearchQuery(event.target.value);
+  });
+
+  els.searchInput.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    const [first] = searchSections(app.sections, event.target.value);
+    if (!first) return;
+    event.preventDefault();
+    goToSection(first.section.id);
+    closeMobileMenu();
   });
 
   els.previousButton.addEventListener("click", () => {
